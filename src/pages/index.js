@@ -59,7 +59,7 @@ const Home = () => (
                     {product.name}
                     <div className="Product__price">{product.price}€</div>
                   </div>
-                  <span className="Product__buy">Buy now</span>
+                  <span className="Product__buy">Add to CART</span>
                 </div>
               </div>
             </div>
