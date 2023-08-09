@@ -1,24 +1,26 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+require('dotenv').config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'Game Store',
+    siteName: 'My Shop',
   },
   plugins: [
     'gatsby-plugin-sass',
-    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-datocms`,
-      options: { apiToken: process.env.DATO_API_TOKEN },
+      options: {
+        apiToken:
+          process.env.DATO_READONLY_API_KEY || '1b2fe1bfc8abf2e08343a75e444b4d',
+      },
     },
     {
-      resolve: 'gatsby-plugin-snipcart',
+      resolve: 'gatsby-plugin-snipcart-advanced',
       options: {
-        publicApiKey: process.env.PUBLIC_API_KEY,
-        autopop: true
-      }
+        publicApiKey:
+          process.env.SNIPCART_PUBLIC_API_KEY ||
+          'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
+        autopop: true,
+      },
     },
   ],
-}
+};

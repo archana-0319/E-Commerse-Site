@@ -1,10 +1,13 @@
 # Project dependencies
 .cache
 node_modules
-yarn-error.log
 
 # Build directory
 /public
 .DS_Store
 
 .env*
+.vercel
+
+# Local Netlify folder
+.netlify
