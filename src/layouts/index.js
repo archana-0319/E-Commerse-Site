@@ -36,7 +36,7 @@ const Layout = ({ children, site, seo }) => {
             {/* <a href="https://www.gatsbyjs.org/">Gatsby</a>,{' '} */}
             {/* <a href="https://snipcart.com/">Snipcart</a> and{' '} */}
             {/* <a href="https://www.datocms.com">DatoCMS</a>. */}
-            <a href="https://play.google.com/store/games?hl=en-IN">Visit</a>,{' '}
+            <a href="https://play.google.com/store/games?hl=en-IN" target="_blank" >Visit</a>,{' '}
           </div>
         </div>
       </div>
