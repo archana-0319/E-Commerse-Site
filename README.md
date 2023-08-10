@@ -12,9 +12,7 @@ All the details on how this works on the [related blog post](https://www.datocms
 
 ## Deploy on DatoCMS
 
-If you want to set up a live demo for yourself, just [sign up for a free DatoCMS account](https://dashboard.datocms.com/signup) and click this button:
-
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://datocmssnipcartgatsbyshop88769.gatsbyjs.io/)
+If you want to set up a live demo for yourself, just [sign up for a free DatoCMS account](https://dashboard.datocms.com/signup)
 
 ## Usage
 
