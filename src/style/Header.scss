@@ -1,9 +1,9 @@
 .Header {
   background: #663399;
-  color: white;
-  border-bottom: 3px solid white;
+  color: rgb(33, 31, 31);
+  border-bottom: 3px solid rgb(249, 108, 108);
   box-shadow: 0 16px 0 black;
-  transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
+  // transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
   margin: 50px;
 }
 
@@ -15,7 +15,7 @@
 .Header__title {
   flex: 1;
   padding: 20px 0;
-  font-family: "times new roman", times, serif;
+  font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: italic;
 
   a {
