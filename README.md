@@ -4,7 +4,7 @@ This is a demo project to get you started with a static ecommerce site powered b
 
 It's a brutalist socks ecommerce site, that looks like this:
 
-![Socks ecommerce screenshot](./preview.png)
+![Socks ecommerce screenshot](/preview.png.png)
 
 You can see how it looks live on this [demo installation](https://datocms-snipcart-gatsby-demo.netlify.com/).
 
